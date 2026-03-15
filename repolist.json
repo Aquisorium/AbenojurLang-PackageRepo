@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "name": "harborweb",
+      "importAlias": "harbor",
+      "version": "1-0-0",
+      "archive": "harborweb-1-0-0.zip",
+      "entry": "harbor/harbor.abj"
+    }
+  ]
+}
