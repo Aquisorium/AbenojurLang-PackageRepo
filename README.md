@@ -1,17 +1,17 @@
 # Abenojur Package Registry
 
-Este repositorio guarda os pacotes distribuidos pelo ecossistema do Aben.
+This repository stores public packages for the Abenojur ecosystem.
 
-Estrutura:
+## Structure
 
-- `repolist.json`: indice oficial de pacotes e versoes
-- `packages/`: arquivos `.zip` prontos para instalacao
+- `repolist.json`: official package and version index
+- `packages/`: installable `.zip` archives
 
-Formato de versao:
+## Version Format
 
 - `1-0-0`
 
-Pacotes iniciais:
+## Published Packages
 
 - `harborweb` -> alias `harbor`
 - `stdcore` -> alias `stdcore`
@@ -20,16 +20,20 @@ Pacotes iniciais:
 - `cryptokit` -> alias `cryptokit`
 - `winbridge` -> alias `winbridge`
 
-Exemplos de uso:
+## Usage
 
-- `aben get harborweb`
-- `aben get stdcore`
-- `aben get winbridge 1-0-0`
+```powershell
+aben get harborweb
+aben get stdcore
+aben get winbridge 1-0-0
+```
 
-Depois da instalacao, o projeto pode importar:
+After installation, a project can import packages like:
 
-- `import "harbor/harbor.abj";`
-- `import "stdcore/prelude.abj";`
-- `import "stdnet/http.abj";`
-- `import "cryptokit/crypto.abj";`
-- `import "winbridge/winapi.abj";`
+```abj
+import "harbor/harbor.abj";
+import "stdcore/prelude.abj";
+import "stdnet/http.abj";
+import "cryptokit/crypto.abj";
+import "winbridge/winapi.abj";
+```

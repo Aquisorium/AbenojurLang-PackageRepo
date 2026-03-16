@@ -1,12 +1,12 @@
 # Packages
 
-Arquivos `.zip` distribuidos pelo registry do Aben.
+Installable `.zip` archives published by the Abenojur package registry.
 
-Formato atual:
+## Format
 
-- `<nome>-<versao>.zip`
+- `<name>-<version>.zip`
 
-Pacotes publicados:
+## Current Archives
 
 - `harborweb-1-0-0.zip`
 - `stdcore-1-0-0.zip`
