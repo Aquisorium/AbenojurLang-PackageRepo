@@ -1,12 +1,47 @@
 {
-  "schemaVersion": 1,
-  "packages": [
-    {
-      "name": "harborweb",
-      "importAlias": "harbor",
-      "version": "1-0-0",
-      "archive": "harborweb-1-0-0.zip",
-      "entry": "harbor/harbor.abj"
-    }
-  ]
+    "schemaVersion":  1,
+    "packages":  [
+                     {
+                         "name":  "harborweb",
+                         "importAlias":  "harbor",
+                         "version":  "1-0-0",
+                         "archive":  "harborweb-1-0-0.zip",
+                         "entry":  "harbor/harbor.abj"
+                     },
+                     {
+                         "name":  "stdcore",
+                         "importAlias":  "stdcore",
+                         "version":  "1-0-0",
+                         "archive":  "stdcore-1-0-0.zip",
+                         "entry":  "stdcore/prelude.abj"
+                     },
+                     {
+                         "name":  "stdsystem",
+                         "importAlias":  "stdsystem",
+                         "version":  "1-0-0",
+                         "archive":  "stdsystem-1-0-0.zip",
+                         "entry":  "stdsystem/io.abj"
+                     },
+                     {
+                         "name":  "stdnet",
+                         "importAlias":  "stdnet",
+                         "version":  "1-0-0",
+                         "archive":  "stdnet-1-0-0.zip",
+                         "entry":  "stdnet/harbor.abj"
+                     },
+                     {
+                         "name":  "cryptokit",
+                         "importAlias":  "cryptokit",
+                         "version":  "1-0-0",
+                         "archive":  "cryptokit-1-0-0.zip",
+                         "entry":  "cryptokit/crypto.abj"
+                     },
+                     {
+                         "name":  "winbridge",
+                         "importAlias":  "winbridge",
+                         "version":  "1-0-0",
+                         "archive":  "winbridge-1-0-0.zip",
+                         "entry":  "winbridge/winapi.abj"
+                     }
+                 ]
 }
